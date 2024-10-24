@@ -10,7 +10,7 @@ class Book_:
     def read(self): print("Чтение интересной истории")
 
 class StoryReader_:
-    def init(self): self.book = Book_()
+    def __init__(self): self.book = Book_()
 
 # Обычно две части не должны связываться между собой.  .... так делать не надо.
 
